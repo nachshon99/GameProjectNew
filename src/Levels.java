@@ -10,6 +10,8 @@ public class Levels extends Level{
     {
         endLevel = new Car(cx,3,6,Color.white);
         level = LEVEL_1;
+
+
         switch (level){
             case LEVEL_1:{
                 level1();
